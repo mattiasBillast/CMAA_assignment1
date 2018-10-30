@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3dc9f92-bab9-4209-8e78-2af56fa7796d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/f_1d_final.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/f_1d.py" beforeDir="false" afterPath="$PROJECT_DIR$/f_1d.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2x02t001.dat" beforeDir="false" afterPath="$PROJECT_DIR$/test2x02t001.dat" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,26 +26,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="dat" value="1" />
-          <entry key="py" value="6" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="6" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="145" />
-          <entry key="py" value="3959" />
+          <entry key="py" value="4032" />
           <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="4104" />
+          <entry key="Python" value="4177" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -59,8 +60,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/make_gif.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1199">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="272">
+              <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plot_EOC.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="96">
+              <caret line="60" column="49" lean-forward="true" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -94,11 +98,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/f_1d.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="102">
+              <caret line="126" column="65" lean-forward="true" selection-end-line="261" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
-                <marker date="1540845769601" expanded="true" signature="7839:7895" ph="..." />
+                <marker date="1540896856632" expanded="true" signature="7843:8674" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/f_1d_final.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="140" column="42" lean-forward="true" selection-start-line="140" selection-start-column="42" selection-end-line="140" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,10 +137,12 @@
       <list>
         <option value="$PROJECT_DIR$/1D_Full_Euler.py" />
         <option value="$PROJECT_DIR$/f_1d.py" />
+        <option value="$PROJECT_DIR$/f_1d_final.py" />
+        <option value="$PROJECT_DIR$/make_gif.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="18" />
     <option name="y" value="7" />
     <option name="width" value="1346" />
@@ -170,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.f_1d">
+  <component name="RunManager" selected="Python.f_1d_final">
     <configuration name="1D_Full_Euler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CMAA_assignment1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,6 +231,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="f_1d_final" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CMAA_assignment1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/f_1d_final.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="plot_EOC" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CMAA_assignment1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,9 +277,11 @@
       <item itemvalue="Python.plot_EOC" />
       <item itemvalue="Python.1D_Full_Euler" />
       <item itemvalue="Python.f_1d" />
+      <item itemvalue="Python.f_1d_final" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.f_1d_final" />
         <item itemvalue="Python.f_1d" />
         <item itemvalue="Python.1D_Full_Euler" />
         <item itemvalue="Python.plot_EOC" />
@@ -306,16 +347,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plot_EOC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1D_Full_Euler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -337,21 +368,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/plot_EOC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="60" column="49" lean-forward="true" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/f_1d.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="102">
+          <caret line="126" column="65" lean-forward="true" selection-end-line="261" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
-            <marker date="1540845769601" expanded="true" signature="7839:7895" ph="..." />
+            <marker date="1540896856632" expanded="true" signature="7843:8674" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/f_1d_final.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="140" column="42" lean-forward="true" selection-start-line="140" selection-start-column="42" selection-end-line="140" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/make_gif.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1199">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="272">
+          <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

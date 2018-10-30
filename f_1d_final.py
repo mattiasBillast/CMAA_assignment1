@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 
 def main():
     #parameters
-    dx = 0.001
-    dt = 0.00001
+    dx = 0.01
+    dt = 0.001
 
     #Number of gridpoints
     # nu = 10
@@ -88,10 +88,13 @@ def main():
             if (i==0):
                 if test==2:
                     decom = compute_eigenvalues(values[:, i, -2], gamma)
+                    decommin = compute_eigenvalues(values[:, i - 1, -2], gamma)
+                    decomplus = compute_eigenvalues(values[:, i + 1, -2], gamma)
                     diagsi = convert_to_diag(values[:, i, -2], decom['L'])
                     # if (i>0):
-                    diagsimin = convert_to_diag(values[:, i - 1, -2], decom['L'])
-                    diagsiplus = convert_to_diag(values[:, i + 1, -2], decom['L'])
+                    diagsimin = convert_to_diag(values[:, i - 1, -2], decommin['L'])
+                    diagsiplus = convert_to_diag(values[:, i + 1, -2], decomplus['L'])
+
 
                     verschil = np.zeros((3, 1))
                     for j in xrange(0, 3):
@@ -107,10 +110,13 @@ def main():
             elif(i==n_grid-1):
                 if test == 2:
                     decom = compute_eigenvalues(values[:, i, -2], gamma)
+                    decommin = compute_eigenvalues(values[:, i-1, -2], gamma)
+                    decomplus = compute_eigenvalues(values[:, 0, -2], gamma)
+
                     diagsi = convert_to_diag(values[:, i, -2], decom['L'])
                     # if (i>0):
-                    diagsimin = convert_to_diag(values[:, i - 1, -2], decom['L'])
-                    diagsiplus = convert_to_diag(values[:, 0, -2], decom['L'])
+                    diagsimin = convert_to_diag(values[:, i - 1, -2], decommin['L'])
+                    diagsiplus = convert_to_diag(values[:, 0, -2], decomplus['L'])
 
                     verschil = np.zeros((3, 1))
                     for j in xrange(0, 3):
@@ -125,10 +131,12 @@ def main():
 
             else:
                 decom = compute_eigenvalues(values[:,i,-2],gamma)
+                decommin = compute_eigenvalues(values[:, i - 1, -2], gamma)
+                decomplus = compute_eigenvalues(values[:, i+1, -2], gamma)
                 diagsi = convert_to_diag(values[:,i,-2],decom['L'])
                 #if (i>0):
-                diagsimin = convert_to_diag(values[:,i-1,-2],decom['L'])
-                diagsiplus = convert_to_diag(values[:,i+1,-2],decom['L'])
+                diagsimin = convert_to_diag(values[:,i-1,-2],decommin['L'])
+                diagsiplus = convert_to_diag(values[:,i+1,-2],decomplus['L'])
 
                 verschil = np.zeros((3,1))
                 for j in xrange(0,3):
